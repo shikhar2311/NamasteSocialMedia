@@ -1,4 +1,4 @@
-# Namaste
+<!-- # Namaste
 
 *It is a social media website made on the MERN stack with full implementation of CRUD operations and a chat feature made with use of sockets.io*
 
@@ -55,4 +55,4 @@ https://namaaste.netlify.app/auth/
 ## Bugs:
 
 Error: GET http://localhost:8800/socket.io/?EIO=4&transport=polling&t=OzxBfxn net::ERR_CONNECTION_REFUSED <br />
-Whenever exits from chat page
+Whenever exits from chat page -->

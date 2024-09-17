@@ -1,0 +1,80 @@
+.following {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.following-title {
+    font-weight: 700;
+    align-self: flex-start;
+}
+
+.following-list {
+    width: 100%;
+    margin-top: 1.3rem;
+}
+
+.follower-line {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.prof-about {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.prof-image {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+
+.prof-name {
+    font-weight: 550;
+}
+
+.prof-tag {
+    font-size: 0.8rem;
+}
+
+.follow-button {
+    border: none;
+    background: var(--buttonBg);
+    color: var(--appColor);
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
+    justify-self: flex-end;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.25);
+    transition: background-color ease-in-out box-shadow 2s ease-in-out;
+    margin-right: 10px;
+}
+
+.follow-button:hover {
+    cursor: pointer;
+    background: var(--orange);
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.unfollow-button {
+    border: 2px solid var(--orange);
+    background-color: transparent;
+    color: var(--orange);
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
+    justify-self: flex-end;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.13);
+    transition: background-color ease-in-out box-shadow 2s ease-in-out;
+    margin-right: 10px;
+}
+
+.unfollow-button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 0px;
+}

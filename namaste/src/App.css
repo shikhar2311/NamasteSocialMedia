@@ -1,0 +1,72 @@
+:root {
+    --yellow: #f5c32c;
+    --orange: #fca61f;
+    --black: #242d49;
+    --gray: rgba(36, 45, 73, 0.65);
+    --profileshadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
+    --searchshadow: 0px 1px 5px 1px rgba(114, 114, 114, 0.25);
+    --hrColor: #cfcdcd;
+    --cardColor: rgba(255, 255, 255, 0.64);
+    --buttonBg: linear-gradient(98.63deg, #f9a225, #f95f35 100%);
+    --inputColor: rgba(40, 52, 62, 0.07);
+    --photo: rgb(89, 148, 0);
+    --video: #4a4eb7;
+    --location: rgb(252, 117, 117);
+    --schedule: #e1ae4a;
+    --circleColor: #a6ddf0;
+    --appColor: #f3f3f3;
+    --searchIcon: linear-gradient(106.23deg, #f99827, #f95f35 100%);
+    --darkorange: #f95f35;
+}
+
+.App {
+    padding: 0.5rem;
+    color: var(--black);
+    background-color: var(--appColor);
+    scrollbar-width: 0px;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.circle {
+    position: absolute;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 50%;
+    background: var(--circleColor);
+    filter: blur(72px);
+}
+
+.button {
+    border: none;
+    background: var(--buttonBg);
+    color: var(--appColor);
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
+    justify-self: flex-end;
+    transition: background-color ease-in-out box-shadow 2s ease-in-out;
+    margin-right: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: var(--orange);
+}
+
+.button:disabled {
+    background: silver;
+    pointer-events: none;
+}
+
+.App::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .App::-webkit-scrollbar {
+        display: none;
+    }
+    html::-webkit-scrollbar {
+        display: none;
+    }
+}

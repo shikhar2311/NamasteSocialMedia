@@ -1,0 +1,34 @@
+.InfoForm {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 20px;
+}
+
+.InfoForm h3 {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+.InfoForm div {
+    display: flex;
+    gap: 1rem;
+}
+
+.InfoForm .files {
+    margin-left: 5px;
+}
+
+.info-info {
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    flex: 1;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.edit-btn {
+    height: 2rem;
+}
